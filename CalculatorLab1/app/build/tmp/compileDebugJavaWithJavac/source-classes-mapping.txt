@@ -1,0 +1,8 @@
+com/egor/calcualtor/Expression.java
+ com.egor.calcualtor.Expression
+com/egor/calcualtor/BuildConfig.java
+ com.egor.calcualtor.BuildConfig
+com/egor/calcualtor/Calculator.java
+ com.egor.calcualtor.Calculator
+com/egor/calcualtor/MainActivity.java
+ com.egor.calcualtor.MainActivity

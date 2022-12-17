@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/Calcualtor/app/src/main/res/drawable/border.xml" value="0.10833333333333334" />
+        <entry key="..\:/AndroidStudioProjects/Calcualtor/app/src/main/res/drawable/btn_number.xml" value="0.18" />
+        <entry key="..\:/AndroidStudioProjects/Calcualtor/app/src/main/res/drawable/btn_textnumber.xml" value="0.10833333333333334" />
+        <entry key="..\:/AndroidStudioProjects/Calcualtor/app/src/main/res/drawable/circle_number.xml" value="0.10462962962962963" />
+        <entry key="..\:/AndroidStudioProjects/Calcualtor/app/src/main/res/drawable/circle_opreation.xml" value="0.10462962962962963" />
+        <entry key="..\:/AndroidStudioProjects/Calcualtor/app/src/main/res/drawable/rectangle_clear.xml" value="0.10462962962962963" />
+        <entry key="..\:/AndroidStudioProjects/Calcualtor/app/src/main/res/layout/activity_main.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <HorizontalScrollView
+        android:id="@+id/s"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="0.8"
+        android:background="@drawable/border">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:autoSizeTextType="uniform"
+            android:hint="0"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#858585"
+            android:textSize="50sp" />
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="0.2"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnClear"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/rectangle_clear"
+                android:text="C"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btnDivide"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="3"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/circle_opreation"
+                android:text="/" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/circle_number"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/circle_number"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/circle_number"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/btnMultiply"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/circle_opreation"
+                android:text="*" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/circle_number"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/circle_number"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/circle_number"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/btnMinus"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/circle_opreation"
+                android:text="-" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/circle_number"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/circle_number"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/circle_number"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/btnPlus"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/circle_opreation"
+                android:text="+" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/circle_number"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/btnDot"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/circle_number"
+                android:text="." />
+
+            <Button
+                android:id="@+id/btnStepen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/circle_opreation"
+                android:text="^" />
+
+            <Button
+                android:id="@+id/btnEquals"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/circle_opreation"
+                android:text="=" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
